@@ -1,0 +1,23 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Tableau temporary files
+*.tmp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment and credentials
+.env
+*.pem
+*.key
+
+# Snowflake or cloud credentials
+credentials.json
+secrets.json
