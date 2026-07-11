@@ -210,7 +210,7 @@ Compare monthly revenue generated across different regions to understand busines
 ## 🔗 Tableau Public
 
 ```
-View Tableau Dashboard: https://public.tableau.com/app/profile/harshitha.marasu8846/viz/FINANCIALCREDITRISKANALYTICS/FINANCIALCREDITRISKANALYTICS
+https://public.tableau.com/app/profile/harshitha.marasu8846/viz/FINANCIALCREDITRISKANALYTICS/FINANCIALCREDITRISKANALYTICS
 ```
 ---
 
