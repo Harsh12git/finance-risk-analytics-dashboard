@@ -6,8 +6,7 @@ This project presents a complete **finance risk analytics pipeline**, from raw l
 ---
 
 ## 📌 Pipeline Overview
-
-```text
+--
 [CSV Files]
       │
       ▼
@@ -93,14 +92,13 @@ SELECT
 FROM LOANS_RAW
 GROUP BY region;
 ```
-
 ---
 
 ## ✅ 4. Setup dbt Project
 
 ### 📂 Project Structure
 
-```text
+```
 dbt/
 ├── analyses/
 ├── macros/
@@ -150,39 +148,70 @@ dbt docs serve
 
 ---
 
-## 📊 Dashboard KPIs
+# 📊 Dashboard KPIs
+
+The dashboard provides the following business metrics:
 
 | KPI | Description |
 |------|-------------|
-| Total Loans | Overall loan portfolio |
-| Default Rate | Percentage of defaulted loans |
-| High Risk Accounts | High-risk customer count |
-| Regional Revenue | Revenue by region |
-| Loan Risk Summary | Risk distribution |
+| 💰 Total Revenue | Total revenue generated from loans |
+| 📉 Average Default Rate | Average percentage of loan defaults |
+| ⚠️ High Risk Accounts | Customers classified as high risk |
+| 🏦 Total Loans | Total approved loans |
 
 ---
 
+# 📈 Dashboard Insights
+
+The dashboard contains multiple analytical views:
+
+### 📉 Default Rate Summary
+
+- Compare default rates across different regions
+- Identify regions with higher lending risk
+
+---
+
+### 💳 Loan Risk Summary
+
+- Total loans
+- High-risk loans
+- Compare healthy vs risky loan portfolio
+
+---
+
+### 📈 High Risk Account Analysis
+
+Visualize
+
+- Credit Score by Region
+- Loan Amount by Region
+
+to identify high-risk lending areas.
+
+---
+
+### 💰 Regional Monthly Revenue
+
+Compare monthly revenue generated across different regions to understand business performance.
+
+---
 ## 📈 Dashboard Layout
 
 | Row | Visualization |
 |-----|---------------|
-| KPI Row | Total Loans, Revenue, Default Rate |
-| Row 1 | Regional Revenue |
+| KPI Row | Total Revenue, Total Loans, Average Default Rate, High Risk Accounts|
+| Row 1 | Regional Monthly Revenue |
 | Row 2 | High Risk Accounts |
 | Row 3 | Loan Risk Summary |
 | Row 4 | Default Rate Analysis |
-
 ---
 
 ## 🔗 Tableau Public
 
-Add your Tableau Public dashboard link here.
-
 ```
-
-https://public.tableau.com/app/profile/harshitha.marasu8846/vizzes
+View Tableau Dashboard: https://public.tableau.com/app/profile/harshitha.marasu8846/viz/FINANCIALCREDITRISKANALYTICS/FINANCIALCREDITRISKANALYTICS
 ```
-
 ---
 
 ## 📂 Repository Structure
