@@ -84,8 +84,6 @@ The project creates analytical views including:
 - Loan Risk Summary
 - Default Rate Summary
 
-Example:
-
 ```sql
 CREATE OR REPLACE VIEW REGIONAL_REVENUE AS
 SELECT
