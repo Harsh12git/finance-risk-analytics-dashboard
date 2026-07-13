@@ -1,4 +1,4 @@
-# 💰 Finance Credit Risk Analytics Dashboard (AWS S3 → Snowflake → dbt → Tableau)
+# 💰 Financial Credit Risk Analytics Dashboard (AWS S3 → Snowflake → dbt → Tableau)
 End-to-end Finance Risk Analytics Dashboard built using AWS S3, Snowflake , dbt, SQL and Tableau Public to analyze loan performance, regional revenue, default rates, and high-risk accounts.
 
 This project presents a complete **finance risk analytics pipeline**, from raw loan data stored in **AWS S3**, loading and querying in **Snowflake**, transformation using **dbt**, and interactive visualization in **Tableau Public**.
